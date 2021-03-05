@@ -3,8 +3,8 @@
 
 #### Abstract
 
-- This repo is a backup to my journey in working with `Embeded Systems`-Explain Embeded systems and give links
-- Good to note, the [openweathermap API](openweathermap.org) supports a time-delay of `10 mins` before they can refresh their servers to update the user of the weather data requessted for.
+- This repo is a backup to my journey in working with [Embeded Systems](https://www.tutorialspoint.com/embedded_systems/es_overview.htm), i.e a computer system—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function within a larger mechanical or electrical system.
+
 ##### Require ents, Dependencies and Tools used
 ===============================================
 The following are the basic requirements to fully achieve the aim of this project
