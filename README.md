@@ -24,4 +24,3 @@ For help with any aspect of related to handling it - from installation, to appli
 to deployment - feel free to ask questions online.
 
 • [Raspberry Official Website](https://www.raspberrypi.org/)
-
