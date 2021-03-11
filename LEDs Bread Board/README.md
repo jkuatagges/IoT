@@ -6,7 +6,6 @@ This is a step by step explanation of how the code works
 - Jumper wires
 - LED
 - Breadboard(Optional)
-- 
 
 `import RPi.GPIO as GPIO`
 
