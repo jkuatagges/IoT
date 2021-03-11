@@ -26,7 +26,7 @@ Each GPIO pin on the Raspberry Pi has several different names, so set mode to te
 This line prints some information to the terminal or bash you're using.
 - This line is however not compulsory as your LEDs will still work
 
-GPIO.output(18,GPIO.HIGH)
+`GPIO.output(18,GPIO.HIGH)`
 
 This turns the GPIO pin ‘on’. What this actually means is that the pin is made to provide power of 3.3volts.  This is enough to turn the LED in our circuit on.
 
