@@ -1,5 +1,6 @@
 ### Explanation of the Code
-`ONandOFF.py`
+The python file is called `ONandOFF.py`
+
 This is a step by step explanation of how the code works
 #### Built With
 - Raspberry PI
