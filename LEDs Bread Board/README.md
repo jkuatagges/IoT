@@ -1,5 +1,5 @@
 ### Explanation of the Code
-The python file is called `ONandOFF.py`
+The python file is called `ONandOFF.py` and it is located in this directory
 
 This is a step by step explanation of how the code works
 #### Built With
