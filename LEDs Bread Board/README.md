@@ -30,10 +30,10 @@ This line prints some information to the terminal or bash you're using.
 
 This turns the GPIO pin ‘on’. What this actually means is that the pin is made to provide power of 3.3volts.  This is enough to turn the LED in our circuit on.
 
-time.sleep(1)
+`time.sleep(1)`
 
 Pauses the Python program for 1 second
 
-GPIO.output(18,GPIO.LOW)
+`GPIO.output(18,GPIO.LOW)`
 
 This turns the GPIO pin ‘off’, meaning that the pin is no longer supplying any power.
