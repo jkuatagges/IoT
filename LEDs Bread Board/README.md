@@ -11,3 +11,10 @@ This is a step by step explanation of how the code works
 `import RPi.GPIO as GPIO`
 
 The first line tells the Python interpreter (the thing that runs the Python code) that it will be using a ‘library’ that will tell it how to work with the Raspberry Pi’s GPIO pins.
+
+`import time`
+
+The [time python library](https://pypi.org/project/time/) is used when doing anythin time-dependant.
+e.g turn our LED after some time then off after some time again, on and off, timely.
+
+
