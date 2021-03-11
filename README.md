@@ -3,6 +3,7 @@
 
 - `Linux`, `RaspberryPI`, `Python3`, `CompVision`, `Sensors`, `BreadBoard`
 #### Abstract
+<hr>
 
 - This repo is a backup to my journey in working with [Embeded Systems](https://www.tutorialspoint.com/embedded_systems/es_overview.htm), i.e a computer system—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function within a larger mechanical or electrical system.
 
