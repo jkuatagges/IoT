@@ -10,8 +10,9 @@
 <hr>
 
 The following are the basic requirements to fully achieve the aim of this project
-- Raspberry PI, Basic knowledge in python, jumper wires, 
-- Virtual Network Computer to view your pi remotely.
+- `Raspberry PI`, `Basic knowledge in python`, `jumper wires`, 
+- `Breadboard`,`LED`, `Power source ~ 5V DC to power the pi, ~2.85 W`, 
+- Virtual Network Computer to view your pi remotely or any other viewer.
 
 #### Errata.
 <hr>
