@@ -17,4 +17,6 @@ The first line tells the Python interpreter (the thing that runs the Python code
 The [time python library](https://pypi.org/project/time/) is used when doing anythin time-dependant.
 e.g turn our LED after some time then off after some time again, on and off, timely.
 
+`GPIO.setmode(GPIO.BCM)`
 
+Each GPIO pin on the Raspberry Pi has several different names, so set mode to tell the program which naming convention is to be used.Here we're using the [GPIO.BCM](https://raspi.tv/2013/rpi-gpio-basics-4-setting-up-rpi-gpio-numbering-systems-and-inputs)
