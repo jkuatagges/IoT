@@ -5,7 +5,7 @@ import time #to delay your LED
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
 
-ledPin = 12
+ledPin = 12 #Use pin 12(GPIO18)
 GPIO.setup(ledPin, GPIO.OUT)
 
 #Flashing
