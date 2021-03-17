@@ -8,7 +8,6 @@
 #### Find Me on Twitter
 ![Twitter Follow](https://img.shields.io/twitter/follow/okomojacob?style=social)
 
-
 - `Linux`, `RaspberryPI`, `Python3`, `CompVision`, `Sensors`, `BreadBoard`
 #### Abstract
 <hr>
