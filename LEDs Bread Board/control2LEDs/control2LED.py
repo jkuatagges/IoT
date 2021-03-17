@@ -9,11 +9,11 @@ ledPin = 12 #Use pin 12(GPIO18)
 GPIO.setup(ledPin, GPIO.OUT)
 
 #Flashing
-while True: #Run forever
-    for i in range(3):
-        print("Turning on")
-        GPIO.output(ledPin, GPIO.HIGH)
-        time.sleep(0.5)
-        print("Going Off")
-        GPIO.output(ledPin, GPIO.LOW)
-        time.sleep(0.5)
+# while True: #Run forever
+for i in range(3):
+    print("Turning on")
+    GPIO.output(ledPin, GPIO.HIGH)
+    time.sleep(0.5)
+    print("Going Off")
+    GPIO.output(ledPin, GPIO.LOW)
+    time.sleep(0.5)
