@@ -1,4 +1,4 @@
-## Working With Embeded Systems Pi 3B+
+## Working With Embeded Systems Pi
 <hr>
 
 <img align="left" src="https://img.shields.io/badge/License-MIT2.0-blue.svg"><br>
