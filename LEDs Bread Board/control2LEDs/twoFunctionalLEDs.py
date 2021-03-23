@@ -11,6 +11,7 @@ redlLedPin = 16
 #Set pin 7(GPIO 4) as both power and output, set initial value as low(Off)
 GPIO.setup(yelLedPin, GPIO.OUT, initial = GPIO.LOW)
 #GPIO.setup(redlLedPin, GPIO.OUT, initial = GPIO.LOW)
+
 """These two functions are set to blink 2 LEDS simultaneously but only one works"""
 #Flashing
 def flashYllw():
