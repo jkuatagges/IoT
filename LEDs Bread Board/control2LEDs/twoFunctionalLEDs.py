@@ -22,7 +22,7 @@ def flashYllw():
         print("Going Off")
         GPIO.output(yelLedPin, GPIO.LOW)
         time.sleep(0.09)
-"""      
+    
 def flashRed():
     while True: #Run forever
         print("Turning on")
@@ -31,6 +31,6 @@ def flashRed():
         print("Going Off")
         GPIO.output(redlLedPin, GPIO.LOW)
         time.sleep(0.5)
- """       
+ 
 flashYllw()  
 #flashRed()
