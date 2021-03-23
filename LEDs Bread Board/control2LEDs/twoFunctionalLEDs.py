@@ -33,4 +33,4 @@ def flashRed():
         time.sleep(0.5)
  
 flashYllw()  
-#flashRed()
+flashRed()
