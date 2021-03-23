@@ -8,7 +8,7 @@ GPIO.setwarnings(False)
 yelLedPin = 12 #GPIO 18
 redlLedPin = 16 #GPIO 23
 
-#Set pin 7(GPIO 4) as both power and output, set initial value as low(Off)
+#Set pin 12 and 16(GPIO 18 and 23) as both power and output, set initial value as low(Off)
 GPIO.setup(yelLedPin, GPIO.OUT, initial = GPIO.LOW)
 #GPIO.setup(redlLedPin, GPIO.OUT, initial = GPIO.LOW)
 
