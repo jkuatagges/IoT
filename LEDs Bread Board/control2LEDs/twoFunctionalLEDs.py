@@ -5,8 +5,8 @@ import time #to delay your LED
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
 
-yelLedPin = 12
-redlLedPin = 16
+yelLedPin = 12 #GPIO 23
+redlLedPin = 16 
 
 #Set pin 7(GPIO 4) as both power and output, set initial value as low(Off)
 GPIO.setup(yelLedPin, GPIO.OUT, initial = GPIO.LOW)
