@@ -21,11 +21,11 @@ def alternateFlash():
         time.sleep(tme)
         led1.off()
         
-        led2.off()
+        led2.on()
         time.sleep(tme)
         led2.off()
-        time.sleep(tme)
         
+"""        
         led3.off()
         time.sleep(tme)
         led3.on()
@@ -36,5 +36,5 @@ def alternateFlash():
         
         led1.off(); led2.off(); led3.off(); led4.off();
         led1.on(); led2.on(); led3.on(); led4.on();
-
+"""
 alternateFlash()
