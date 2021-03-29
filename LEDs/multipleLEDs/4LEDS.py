@@ -2,6 +2,8 @@
 Alternate the flashing of the LEDs
 """
 from gpiozero import LED
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BCM)
 import time
 
 tme = 1
