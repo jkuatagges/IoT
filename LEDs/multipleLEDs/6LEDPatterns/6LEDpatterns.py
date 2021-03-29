@@ -6,9 +6,9 @@ from signal import signal, SIGTERM, SIGHUP, pause #
 from gpiozero import LED, Button                  #
 from threading import Thread                      #For safe running of continuos threading loops
 from time import sleep                            #For controling how fast or slow the pattern moves around
-from random import randrange                      #For safe running of continuos threading loops
+from random import randrange                      #To randomly activate and change the patterns(Within the specified range) of blink when button pressed
 
-# Patterns are assigned as Binary digits, (0) off, 1(on)
+# 4 Patterns are assigned as Binary digits, (0) off, 1(on)
 pattern = (
                 [1, 0, 0, 0],
                 [1, 1, 0, 0],
