@@ -34,7 +34,5 @@ def alternateFlash():
         
         led1.off(); led2.off(); led3.off(); led4.off();
         led1.on(); led2.on(); led3.on(); led4.on();
-        led1.off(); led2.off(); led3.off(); led4.off();
-        led1.on(); led2.on(); led3.on(); led4.on();
 
 alternateFlash()
