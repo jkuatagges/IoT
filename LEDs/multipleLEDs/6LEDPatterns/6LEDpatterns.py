@@ -1,8 +1,5 @@
 """
-    Program: LED Patterns (6LEDpatterns.py)
-    Author:  OkomoJacob, (c) 2020
-
-    Description: This example demonstrates how to use Raspberry Pi to blink multiple patterns using multiple LEDs.  
+Description: This code demonstrates how to use Raspberry Pi to blink multiple patterns using multiple LEDs.  
 """
 
 from signal import signal, SIGTERM, SIGHUP, pause #For safe running of continuos threading loops
