@@ -1,26 +1,15 @@
-#!/usr/bin/python3
-
 """
-    Program: LED Patterns (patterns.py)
-    Author:  M. Heidenreich, (c) 2020
+    Program: LED Patterns (6LEDpatterns.py)
+    Author:  OkomoJacob, (c) 2020
 
-    Description: This code is provided in support of the following YouTube tutorial:
-                 https://youtu.be/bUaq-MoaPk0 
-
-                 This example demonstrates how to use Raspberry Pi to blink multiple patterns using multiple LEDs.  
-
-    THIS SOFTWARE AND LINKED VIDEO TOTORIAL ARE PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS
-    ALL WARRANTIES INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS.
-    IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES
-    OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
-    NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+    Description: This example demonstrates how to use Raspberry Pi to blink multiple patterns using multiple LEDs.  
 """
 
-from signal import signal, SIGTERM, SIGHUP, pause
-from gpiozero import LED, Button
-from threading import Thread
-from time import sleep
-from random import randrange
+from signal import signal, SIGTERM, SIGHUP, pause #For safe running of continuos threading loops
+from gpiozero import LED, Button                  #For safe running of continuos threading loops
+from threading import Thread                      #For safe running of continuos threading loops
+from time import sleep                            #For controling how fast or slow the pattern moves around
+from random import randrange                      #For safe running of continuos threading loops
 
 patterns = (
                 [1, 0, 0, 0, 0, 0],
@@ -30,7 +19,9 @@ patterns = (
                 [1, 1, 1, 1, 1, 0],
                 [1, 0, 1, 0, 1, 0]
             )
-leds = (LED(20), LED(21), LED(26), LED(19), LED(13), LED(6))
+#Assign the LEDs in and index are call them  using their numerical indices
+#The numbers in bracket show GPIO pins, check the diagram in the images folder above
+leds = (LED(4), LED(17), LED(27), LED(22), LED(13), LED(6))
 button = Button(16)
 
 is_running = True
