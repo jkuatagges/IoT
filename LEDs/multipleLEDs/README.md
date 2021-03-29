@@ -33,7 +33,7 @@ Pauses the Python program for 1 second
 `led.off()`
 
 This turns the GPIO pin ‘off’. 
-What this actually means is that the pin is made to provide power of 3.3volts.
+- What this actually means is that the pin is made to provide power of 3.3volts.
 - This is enough to turn the LED in our circuit on.
 
 
