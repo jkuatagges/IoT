@@ -43,10 +43,10 @@ def show_pattern():
         pattern[index].insert(led_in, token)
 
         sleep(delay)
-
+"""Change the pattern when the button is pressed"""
 def change_direction():
     global led_in, led_out, index
-
+    #Swap the starting and ending LEDS(i.e pattern)
     led_in, led_out = led_out, led_in
 
     while True:
@@ -74,6 +74,7 @@ except KeyboardInterrupt:
 finally: #stopss the display, or change the pattern
     is_running = False
     sleep(1.5*delay)
-
-    for id in range(6):
+    
+    # Deactivate the GPIOs as a standard practice.  
+    for id in range(4):
         leds[id].close()
