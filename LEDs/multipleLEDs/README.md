@@ -30,4 +30,11 @@ This turns the GPIO pin ‘on’. What this actually means is that the pin is ma
 Pauses the Python program for 1 second
 
 
+`led.off()`
+
+This turns the GPIO pin ‘off’. 
+What this actually means is that the pin is made to provide power of 3.3volts.
+- This is enough to turn the LED in our circuit on.
+
+
 This turns the GPIO pin ‘off’, meaning that the pin is no longer supplying any power.
