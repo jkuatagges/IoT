@@ -7,8 +7,9 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 import time
 
-tme = 0.3
+tme = 0.09
 #tme = float(input("Sleep for how many Seconds: "))
+#use GPIO pin 4,17, 27, and 22 as both your positive and data(LED) pins
 led1 = LED(4)
 led2 = LED(17)
 led3 = LED(27)
@@ -36,6 +37,6 @@ def alternateFlash():
         time.sleep(tme)
         
         led1.on(); led2.on(); led3.on(); led4.on()
-        led1.off(); led2.off(); led3.off(); led4.off();
+        time.sleep(tme)
 
 alternateFlash()
