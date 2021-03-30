@@ -30,7 +30,6 @@ led_out = 0
 def safe_exit(signum, frame):
     exit(1)
 
-
 """
 Main guy, an infinite loop
 """
@@ -49,9 +48,9 @@ def change_direction():
     #Swap the starting and ending LEDS(i.e pattern)
     led_in, led_out = led_out, led_in
 
-    while True:
+    while True: #Avoid repeating a pattern before all patterns are played.
         new_index = randrange(0, len(pattern))
-
+        
         if new_index != index:
             index = new_index
             break
