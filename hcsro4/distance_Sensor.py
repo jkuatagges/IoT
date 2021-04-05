@@ -9,13 +9,10 @@ from gpiozero import DistanceSensor as dists
 GPIO.setwarnings(False)
 
 reading = True
-sensor = 
+sensor = dists(echo = 18, trig = 4)
 GPIO.setmode(GPIO.BCM)
 
 def execute():
-    trig = 4
-    echo = 18
-
     GPIO.setup(trig, GPIO.OUT)
     GPIO.setup(echo, GPIO.IN)
 
