@@ -9,38 +9,29 @@ from gpiozero import DistanceSensor as dists
 GPIO.setwarnings(False)
 
 reading = True
-sensor = dists(echo = 18, trig = 4)
-GPIO.setmode(GPIO.BCM)
+sensor = dists(echo = 18, trigger = 4)
 
-def execute():
-    GPIO.setup(trig, GPIO.OUT)
-    GPIO.setup(echo, GPIO.IN)
+def safe_exit(signum, frame):
+    exit(1)
 
-    GPIO.output(trig, True)
-    time.sleep(0.001)
-    
-    GPIO.output(trig, False)
-    
-    while GPIO.input(echo) == False:
-        start = time.time()
+def read_distance():
+    while reading:
+        print("Distance: "+'{:1.2f}'.format(sensor.value) + " m")
+        sleep(1)
         
-    while GPIO.input(echo) == True:
-        end = time.time()
-        
-    sig_time = end - start
-    
-    distance = sig_time/0.000058 #cm , inches = sit_time / 0.000148
-    print('Distance : {} cm'.format(distance))
-    GPIO.cleanup()
-        
-execute()        
+signal(SIGTERM, safe_exit)
+signal(SIGHUP, safe_exit)
 
 try:
-
+    reader = Thread(target = read_distance, daemon = True)
+    reader.start()
+    
     pause()
 
 except KeyboardInterrupt:
     pass
 
 finally:
-    pass
+    reading = False
+    sensor.close()
+
