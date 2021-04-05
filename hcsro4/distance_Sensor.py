@@ -1,11 +1,15 @@
 """
-A skeleton program that i Usually start with.
+HCSRO4 ultrasonic Distance sensor
 """
 from signal import signal, SIGTERM, SIGHUP, pause
 import RPi.GPIO as GPIO
-import time
+from time import sleep
+from threading import Thread
+from gpiozero import DistanceSensor as dists
 GPIO.setwarnings(False)
 
+reading = True
+sensor = 
 GPIO.setmode(GPIO.BCM)
 
 def execute():
