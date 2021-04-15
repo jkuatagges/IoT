@@ -2,9 +2,11 @@
 <hr>
 
 <img align="left" src="https://img.shields.io/badge/License-MIT2.0-blue.svg"><br>
-![GitHub repo size](https://img.shields.io/github/repo-size/okomojacob/192.168_Embeded-System?color=green-yellow&logo=github&logoColor=blue) ![GitHub language count](https://img.shields.io/github/languages/count/OkomoJacob/192.168_Embeded-System?logo=visual-studio-code) ![GitHub last commit](https://img.shields.io/github/last-commit/OkomoJacob/192.168_Embeded-System?style=plastic&color=brightgreen) 
-![Forks](https://img.shields.io/github/forks/OkomoJacob/192.168_Embeded-System?style=social) ![Hackage-Deps](https://img.shields.io/hackage-deps/v/lens) ![GitHub top language](https://img.shields.io/github/languages/top/okomojacob/192.168_Embeded-System)
-
+![GitHub repo size](https://img.shields.io/github/repo-size/okomojacob/192.168_Embeded-System?color=green-yellow&logo=github&logoColor=blue) 
+![GitHub language count](https://img.shields.io/github/languages/count/OkomoJacob/192.168_Embeded-System?logo=visual-studio-code) 
+![GitHub top language](https://img.shields.io/github/languages/top/okomojacob/192.168_Embeded-System)
+![GitHub last commit](https://img.shields.io/github/last-commit/OkomoJacob/192.168_Embeded-System?style=plastic&color=brightgreen) 
+![Forks](https://img.shields.io/github/forks/OkomoJacob/192.168_Embeded-System?style=social) ![Hackage-Deps](https://img.shields.io/hackage-deps/v/lens) 
 #### Find Me on Twitter
 ![Twitter Follow](https://img.shields.io/twitter/follow/okomojacob?style=social)
 
