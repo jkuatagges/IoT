@@ -47,4 +47,4 @@ Black wire to ground pin of arduino uno
 Red wire to pin 13 of arduino uno
 
 # Screenshot of Arduino UNO Serial Monitor
-![alt tag](screenshot1.png)
+![alt tag](moisture_pump.png)
