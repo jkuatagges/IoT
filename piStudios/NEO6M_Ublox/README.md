@@ -9,6 +9,12 @@ After interfacing as indicaated above, will decode the GPS data from [NMEA](http
 4. [Jumper Cables]()
 5. [Bread Board]()
 ### Steps
+1.[Hook Up the Boards]
+2.[Set Up the UART in Raspberry Pi]
+3.Disable the Raspberry Pi Serial Getty Service
+4.Install Minicom and Pynmea2
+5.Test Output
+6.Write Python Codes
 
 
 
