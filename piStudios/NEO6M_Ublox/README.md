@@ -23,7 +23,7 @@ Hook up your pi and the NEO as shown in the diagram below.
 - Connect `vcc` of GPS module to Power Supply (5V) of Raspberry Pi.
 - Connect `Tx` (Transmitter Pin) of GPS module to any Raspberry Pi GPIO
 - Connect `GND` (Ground Pin) of GPS module to Pin No.6 Raspberry.
-
+<!-- Get more from Sparkles and Update-->
 
 ## References
 
