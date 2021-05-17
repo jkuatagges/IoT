@@ -6,7 +6,7 @@ import time
 getLocation = True
 
 while getLocation: #run forever
-    port = "/../../dev/ttyAMA0"
+    port = "/../../dev/ttyAMA0" #Nav to where NMEA was initiated(/)
     ser = serial.Serial(port,baudrate=9600,timeout=0.5)
     dataout = pynmea2.NMEAStreamReader()
     newdata = ser.readline() #readline from the serial connection
