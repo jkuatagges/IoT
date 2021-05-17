@@ -12,9 +12,9 @@ while getLocation: #run forever
     newdata = ser.readline() #readline from the serial connection
 
     #if newdata[0:6] == "$GPGGA, GPRMC":
-    if newdata[0:6] == "$GPGLL":
+    if newdata[0:6] == "$GPGLL": #get GPsGlobal data as Lat, Long
         newmsg = pynmea2.parse(newdata)
         lat = newmsg.latitude
         lng = newmsg.longitude
-        gps = "Latitude = " +str(lat) + ", Longitude=" + str(lng)
+        gps = "Lat = " +str(lat) + ", Long =" + str(lng)
         print(gps)
