@@ -1,8 +1,8 @@
 from signal import signal, SIGTERM, SIGHUP, pause
+from time import timeout
 import pynmea2
 import string 
 import serial
-import time
 
 def safe_exit(signum, frame):
     exit(1)
