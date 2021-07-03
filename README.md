@@ -47,6 +47,7 @@ For help with any aspect of related to handling it - from installation, to appli
 to deployment - feel free to ask questions online.
 
 * [Africastalking IoT Docs](https://africastalking.com/iot)
+* [Africastalking IoT Fundamentals](https://developers.africastalking.com/docs/iot/overview)
 * [Arduino Support Resource](https://support.arduino.cc/hc/en-us)
 • [Raspberry Official Website](https://www.raspberrypi.org/)
 
