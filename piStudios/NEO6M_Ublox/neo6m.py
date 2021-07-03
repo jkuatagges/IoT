@@ -1,24 +1,33 @@
+from signal import signal, SIGTERM, SIGHUP, pause
+from time import timeout
 import pynmea2
 import string 
 import serial
-import time
-import os
 
-getLocation = True
+def safe_exit(signum, frame):
+    exit(1)
+signal(SIGTERM, safe_exit)
+signal(SIGHUP, safe_exit)
 
-def runNeo():
-    while getLocation: 
-        port = “/dev/ttyAMAO”
-        ser = serial.Serial(port,baudrate=9600,timeout=0.5)
+try:     
+    getLocation = True
+    while getLocation: #run forever
+        port = "/../../dev/ttyAMA0" #Nav to where NMEA was initiated(/)
+        ser = serial.Serial(port, baudrate=9600, timeout=0.5)
         dataout = pynmea2.NMEAStreamReader()
-        newdata = ser.readline()
-        
-    print("Getting Latitude and Longitude")
+        newdata = ser.readline() #readline from the serial connection
 
-    #if newdata[0:6] == “$GPGGA”:
-    if newdata[0:6] == “$GPRMC”:
-        newmsg = pynmea2.parse(newdata)
-        lat = newmsg.latitude
-        lng = newmsg.longitude
-        gps = “Latitude = " +str(lat) + “and Longitude=" + str(lng)
-        print(gps)
+        #if newdata[0:6] == "$GPGGA, GPRMC":
+        if newdata[0:6] == "$GPGLL": #get GPsGlobal data as Lat, Long
+            newmsg = pynmea2.parse(newdata)
+            lat = newmsg.latitude
+            lng = newmsg.longitude
+            gps = "Lat = " +str(lat) + ", Long =" + str(lng)
+            print(gps)
+            
+except KeyboardInterrupt:
+    pass
+
+finally:
+    pass
+
