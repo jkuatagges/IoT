@@ -10,7 +10,7 @@
 #### Find Your Developers on Twitter
 [![image](https://img.shields.io/twitter/follow/okomojacob?style=social)](https://twitter.com/okomojacob)
 
-- `Linux`, `RaspberryPI`, `Python`, `Africastalking` `CompVision`, `Sensors`, `BreadBoard`,`ERIS Board`
+- `Linux`, `Africastalking`, `Sensors`, `BreadBoard`,`ERIS Board`, `Devkit Prototyping`
 #### Abstract
 <hr>
 
