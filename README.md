@@ -1,4 +1,4 @@
-## Working With Embeded Systems Pi
+## Working With Embeded Systems, Internet of Things
 <hr>
 
 <img align="left" src="https://img.shields.io/badge/License-MIT2.0-blue.svg"><br>
@@ -14,23 +14,22 @@
 #### Abstract
 <hr>
 
-- This repo is a backup to my journey in interest working with [Embeded Systems](https://www.tutorialspoint.com/embedded_systems/es_overview.htm), i.e a computer system—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function within a larger mechanical or electrical system.
+- This repo is a backup to my journey in interest working with [Embeded Systems](https://www.tutorialspoint.com/embedded_systems/es_overview.htm), i.e a computer system—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function within a larger mechanical or electrical system. A vaariety of devkit boards have been explored in this publication, depending on the interest of he reader, you can choose from one that intersts you.
 
 ##### Requirents, Dependencies and Tools used
 <hr>
 
-The following are the basic requirements to fully achieve the aim of this project
+The following are some basic requirements to achieve the aims of this project
 1.  Devkit Prototyping Boards: Either of theses boards *At least one* of them will get you started.
     - `Africastalking ERIS Devkit Board`
     - `Raspberry PI`
-    - `Arduino`
-    - `STM32`
-    - `Any ARM enabled Board`
-    -
-2. `Breadboard`,`LEDs`, `Power source ~ 5V-12V DC to power the boards (Please check your board rating first before hooking them up), 
-3. Intergrated Developement envirionment Environment for uploading code into any board. Each board might have a unique IDE.
+    - `Arduino`, `STM32`, `Any ARM enabled Board`.
+
+2. `Breadboard`,`LEDs`, `Sensors`, `Power source ~ 5V-12V DC to power the boards (Please check your board rating first before hooking them up), 
+3. Intergrated Developement Environment for uploading code into any board. Each board might have a unique IDE.
 4. For the `pi`, Virtual Network Computer(VNC)(Optional) to view your pi remotely or any other viewer.
 5. IoT gateway e.g a PC, or Mac that will control your IoT devices.
+6. Basic Computer Programming skills.
 
 #### Errata.
 <hr>
