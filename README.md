@@ -7,7 +7,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/okomojacob/192.168_Embeded-System)
 ![GitHub last commit](https://img.shields.io/github/last-commit/OkomoJacob/192.168_Embeded-System?style=plastic&color=brightgreen) 
 ![Forks](https://img.shields.io/github/forks/OkomoJacob/192.168_Embeded-System?style=social) ![Hackage-Deps](https://img.shields.io/hackage-deps/v/lens) 
-#### Find Me on Twitter
+#### Find Your Developers on Twitter
 [![image](https://img.shields.io/twitter/follow/okomojacob?style=social)](https://twitter.com/okomojacob)
 
 - `Linux`, `RaspberryPI`, `Python`, `Africastalking` `CompVision`, `Sensors`, `BreadBoard`,`ERIS Board`
